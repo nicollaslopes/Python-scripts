@@ -1,7 +1,7 @@
 import dns.resolver
 import sys
 
-print('>>>>>>>>>>>> MODO DE USAR: python dnsbrute.py <dominio> <wordlist> ')
+print('>>>>>>>>> MODO DE USAR: python dnsbrute.py <dominio> <wordlist> ')
 
 try:
     dominio = sys.argv[1]
