@@ -12,8 +12,8 @@ for port in portas:
     client.settimeout(0.6)
     code = client.connect_ex((ip, port))
     if code == 0:
-        print('Porta -> ' + str(port) + ' aberta!')
+        print('\nPorta -> ' + str(port) + ' aberta!')
     else:
-        print('Porta -> ' + str(port) + ' fechada...')
+        print('\nPorta -> ' + str(port) + ' fechada...')
 
 print('Scan finalizado.')
