@@ -24,3 +24,4 @@ for subDominio in subDominios:
             print("Subdomonio: ", domESub, "| IP: ->", resultado)
     except:
         pass
+
